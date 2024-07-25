@@ -1,0 +1,181 @@
+/* Navigation bar styles */
+.navbar {
+    background-color: rgba(11, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(11, 0, 0, 0.3);
+    padding: 15px 0; /* Padding inside the navbar */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure the navbar stays on top */
+    margin-top: 30px; /* Space above the navbar */
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+/* Navigation list styles */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center-align the navigation items */
+    gap: 30px; /* Space between navigation items */
+}
+
+/* Navigation list item styles */
+.navbar li {
+    margin: 0 20px; /* Space between navigation items */
+}
+
+/* Navigation link styles */
+.navbar a {
+    text-decoration: none;
+    color: black; /* Set text color to black */
+    font-weight: bold;
+    font-size: 1.1em; /* Increase font size */
+    padding: 10px 20px; /* Padding inside links */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+/* Navigation link hover styles */
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black; /* Keep text color black on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Navigation link active styles */
+.navbar a.active {
+    background-color: rgba(11, 0, 0, 0.2);
+    color: black; /* Keep text color black for active link */
+    border-bottom: 3px solid black; /* Underline for active link */
+}
+
+/* General body styles */
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center-align children horizontally */
+    height: 100vh;
+    box-sizing: border-box;
+    color: black; /* Set default text color to black */
+}
+
+/* Container styles */
+.container {
+    padding: 20px;
+    max-width: 800px;
+    width: 100%; /* Ensure container takes full width available */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border if any */
+    box-shadow: none; /* Remove box shadow if any */
+}
+
+/* Header styles */
+.header {
+    background-color: rgba(11, 0, 0, 0.1);
+    color: black; /* Set text color to black */
+    border: 0.1px solid rgba(11, 0, 0, 0.574);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5em; /* Decrease font size */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center; /* Center-align text in header */
+}
+
+/* Section-box styles */
+.section-box {
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px; /* Space between boxes */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center-align text in section boxes */
+    color: black; /* Set text color to black */
+}
+
+/* Image styles */
+.mee {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.about p {
+    margin-bottom: 1em; /* Adds space between paragraphs */
+}
+
+/* Skills list styles */
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 10px; /* Space between items */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center-align text in the grid */
+}
+
+/* Skills list item styles */
+.skills ul li {
+    color: black; /* Set text color to black */
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Box link styles */
+.box-link {
+    color: black; /* Set text color to black */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Box link hover styles */
+.box-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white; /* Change text color on hover */
+}
+
+/* Contact text styles */
+.contact p {
+    line-height: 1.6;
+    text-align: center; /* Center-align text in contact section */
+    color: black; /* Set text color to black */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
