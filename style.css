@@ -1,4 +1,3 @@
-/* Navigation bar styles */
 .navbar {
     background-color: rgba(11, 0, 0, 0.1);
     border-bottom: 2px solid rgba(11, 0, 0, 0.3);
@@ -12,7 +11,6 @@
     margin-bottom: 20px; /* Space below the navbar */
 }
 
-/* Navigation list styles */
 .navbar ul {
     list-style: none;
     padding: 0;
@@ -22,12 +20,10 @@
     gap: 30px; /* Space between navigation items */
 }
 
-/* Navigation list item styles */
 .navbar li {
     margin: 0 20px; /* Space between navigation items */
 }
 
-/* Navigation link styles */
 .navbar a {
     text-decoration: none;
     color: black; /* Set text color to black */
@@ -38,21 +34,18 @@
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-/* Navigation link hover styles */
 .navbar a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     color: black; /* Keep text color black on hover */
     transform: scale(1.05); /* Slightly increase size on hover */
 }
 
-/* Navigation link active styles */
 .navbar a.active {
     background-color: rgba(11, 0, 0, 0.2);
     color: black; /* Keep text color black for active link */
     border-bottom: 3px solid black; /* Underline for active link */
 }
 
-/* General body styles */
 body {
     background-color: beige;
     font-family: Arial, sans-serif;
@@ -66,7 +59,6 @@ body {
     color: black; /* Set default text color to black */
 }
 
-/* Container styles */
 .container {
     padding: 20px;
     max-width: 800px;
@@ -77,7 +69,6 @@ body {
     box-shadow: none; /* Remove box shadow if any */
 }
 
-/* Header styles */
 .header {
     background-color: rgba(11, 0, 0, 0.1);
     color: black; /* Set text color to black */
@@ -96,7 +87,6 @@ body {
     text-align: center; /* Center-align text in header */
 }
 
-/* Section-box styles */
 .section-box {
     background-color: rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -108,7 +98,6 @@ body {
     color: black; /* Set text color to black */
 }
 
-/* Image styles */
 .mee {
     width: 150px;
     height: 150px;
@@ -123,7 +112,6 @@ body {
     margin-bottom: 1em; /* Adds space between paragraphs */
 }
 
-/* Skills list styles */
 .skills ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns */
@@ -134,7 +122,6 @@ body {
     text-align: center; /* Center-align text in the grid */
 }
 
-/* Skills list item styles */
 .skills ul li {
     color: black; /* Set text color to black */
     padding: 10px;
@@ -144,7 +131,6 @@ body {
     border-radius: 5px;
 }
 
-/* Box link styles */
 .box-link {
     color: black; /* Set text color to black */
     text-decoration: none;
@@ -157,20 +143,17 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Box link hover styles */
 .box-link:hover {
     background-color: rgba(0, 0, 0, 0.2);
     color: white; /* Change text color on hover */
 }
 
-/* Contact text styles */
 .contact p {
     line-height: 1.6;
     text-align: center; /* Center-align text in contact section */
     color: black; /* Set text color to black */
 }
 
-/* Fade-in animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
