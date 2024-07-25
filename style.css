@@ -87,6 +87,10 @@ body {
     text-align: center; /* Center-align text in header */
 }
 
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+
 .section-box {
     background-color: rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.1);
