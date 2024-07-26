@@ -71,7 +71,7 @@ body {
 
 .header {
     background-color: rgba(11, 0, 0, 0.1);
-    color: black; /* Set text color to black */
+    color: black;
     border: 0.1px solid rgba(11, 0, 0, 0.574);
     border-radius: 10px;
     padding: 10px;
